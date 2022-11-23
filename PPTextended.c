@@ -134,6 +134,6 @@ int main(void) {
     printf("\n");
     printf("\nDeseja jogar novamente? Sim 's' ou nao 'n'\n");
     fflush(stdin);
-    scanf("%c", &c);
+    scanf(" %c", &c);
   } while (c == 's');
 }
